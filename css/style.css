@@ -141,14 +141,9 @@ header .logo {
     color: #fff;
     padding: 0 1rem;
     text-shadow: 0 .3rem .5rem white;
-    
-  
     text-align: left;
     padding: 1rem 25rem;  
 }
-
-
-
 
 .home .content p {
     font-size: 2rem;
@@ -172,6 +167,18 @@ header .logo {
     margin: 3rem 0;
     border: none;
 }
+
+@media (max-width: 768px) {
+    .home .content h1 {
+        font-size: 5rem;
+        padding: 2rem;  
+    }
+
+    #ali {
+        left: 2rem; 
+    }
+}
+
 
 .home .content button:hover {
     background: none;
