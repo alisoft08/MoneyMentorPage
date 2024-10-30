@@ -9,25 +9,54 @@
     
     <title>MoneyMentor</title>
 </head>
+<header>
+    <div class="toggle">
+        <div class="logo">
+            <img src="imagenes/logocortado.png">
+        </div>
+    </div>
+    <h2>Bienvenido(a)</h2>
+
+<!-- Right Section -->
+<div class="right-section">
+    <div class="nav">
+        <button id="menu-btn">
+            <span class="material-icons-sharp">
+                menu
+            </span>
+        </button>
+        <div class="dark-mode">
+            <span class="material-icons-sharp active">
+                light_mode
+            </span>
+            <span class="material-icons-sharp">
+                dark_mode
+            </span>
+        </div>
+
+        <div class="profile">
+            <div class="info">
+                <p>Hola, <b>Dafne</b></p>
+                <small class="text-muted">perfil</small>
+            </div>
+            <div class="profile-photo">
+                <img src="img/daf.jpg">
+            </div>
+        </div>
+
+    </div>
+    <!-- final  Nav -->
+</header>
 
 <body>
 
     <div class="container">
         <!-- Sidebar Section -->
         <aside>
-            <div class="toggle">
-                <div class="logo">
-                    <h2>Money<span class="danger">Mentor</span></h2>
-                </div>
-                <div class="close" id="close-btn">
-                    <span class="material-icons-sharp">
-                        close
-                    </span>
-                </div>
-            </div>
+            
 
             <div class="sidebar">
-                <a href="#" >
+                <a href="#" id = inicio_sidebar>
                     <span class="material-icons-sharp">
                         home
                     </span>
@@ -96,7 +125,7 @@
                 <!-- Main Content -->
                 <main>
         
-                    <h1>Bienvenida</h1>
+                    
                     <!-- analisis -->
                     <div class="welcome">
                         <div class="sales">
@@ -153,26 +182,24 @@
                                     <h1>Metas</h1>
                                     <h3>
                                         En nuestra función de metas, podrás establecer tus objetivos por prioridad,
-                                        incluir fechas límite y monitorear su estados.
+                                        incluir fechas límite y monitorear sus estados.
                                     </h3>
                                 </div>
-                                
                             </div>
                         </div>
-
+                        
                         <div class="consejos">
                             <div class="status">
                                 <div class="info">
                                     <h1>Consejos Financieros</h1>
                                     <h3>
                                         En nuestra sección de consejos financieros, encontrarás
-                                         los mejores consejos y enlaces útiles para gestionar tus finanzas
+                                        los mejores consejos y enlaces útiles para gestionar tus finanzas.
                                     </h3>
                                 </div>
-                                
                             </div>
-                        </div
-
+                        </div> <!-- Cierre de .consejos corregido -->
+                        
                         <div class="Foro">
                             <div class="status">
                                 <div class="info">
@@ -182,53 +209,68 @@
                                         consejos de otros usuarios y discutir temas financieros relevantes.
                                     </h3>
                                 </div>
-                                
                             </div>
-                        </div
+                        </div> <!-- Cierre de .Foro corregido -->
+                        
+
+                        <div class="chatbot">
+                            <div class="status">
+                                <div class="firstcolumn">
+                                <div class="chatTitle">
+                                    <h1>Asistente Virtual</h1>
+                                </div>
+
+                                <div class="robot1">
+                                    <img src="robot1.png" alt="Asistente virtual 1">
+                                </div>
+                                </div>
+                                <div class="secondcolumn">
+                                <div class="info">
+                                    <h3>Conoce a WealthyAI, tu asistente virtual siempre listo para ayudarte</h3>
+                                </div>
+
+                                <div class="chat-content">
+                                    <img src="robot2.png" alt="Asistente Virtual 2">
+                                    <div class="chat-message">
+                                        <strong>Andreow</strong>
+                                        <p>Hola, ¿estás preparado para mejorar tus finanzas?</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="thirdcolumn">
+                                <a href="#" class="chatbutton">
+                                    <img src="botonchat.png" alt="imagenbotonchat">
+                                    <h3>Chat</h3>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
 
                     </div>
-                    <!-- Final del welcome -->
-        
+              
                     
-        
+
+
                 </main>
-                <!-- End of Main Content -->
+
+                        
+
+
+
+                       
+                        
+
+    
         
 
 
-        <!-- Right Section -->
-        <div class="right-section">
-            <div class="nav">
-                <button id="menu-btn">
-                    <span class="material-icons-sharp">
-                        menu
-                    </span>
-                </button>
-                <div class="dark-mode">
-                    <span class="material-icons-sharp active">
-                        light_mode
-                    </span>
-                    <span class="material-icons-sharp">
-                        dark_mode
-                    </span>
-                </div>
-
-                <div class="profile">
-                    <div class="info">
-                        <p>Hola, <b>Dafne</b></p>
-                        <small class="text-muted">perfil</small>
-                    </div>
-                    <div class="profile-photo">
-                        <img src="img/daf.jpg">
-                    </div>
-                </div>
-
-            </div>
-            <!-- final  Nav -->
+        
 
             
 
-        </div>
+        
 
 
     </div>
