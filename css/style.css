@@ -22,9 +22,25 @@ html {
 body {
     background-color: white;
 }
-.logo img{
-    width: 25%;
+
+.logo {
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    width: auto;
+    max-width: 80px;
+    height: auto; 
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 60px; 
+    }
+}
+
+
 
 .heading {
     font-size: 4rem;
