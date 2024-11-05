@@ -137,10 +137,9 @@ header .logo {
 }
 
 .home .content h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #fff;
     padding: 0 1rem;
-    text-shadow: 0 .3rem .5rem white;
     text-align: left;
     padding: 1rem 25rem;  
 }
