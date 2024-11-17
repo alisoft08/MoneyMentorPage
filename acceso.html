@@ -15,17 +15,18 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
+          <form id="sign-in-form" class="sign-in-form">
             <h2 class="title">Iniciar sesión</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Usuario" />
+              <input type="text" id="login-username" placeholder="Usuario" required />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" />
+              <input type="password" id="login-password" placeholder="Contraseña" required />
             </div>
-            <input type="button" value="inicia" class="btn solid" onclick="window.location.href='menu.html';"/>
+            <button type="submit" class="btn solid">Iniciar sesión</button>
+         
             
             <p class="social-text">Iniciar sesión con</p>
             <div class="social-media">
@@ -43,21 +44,21 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+          <form id="sign-up-form" class="sign-up-form">
             <h2 class="title">Registrate</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Usuario" />
+              <input type="text" id="register-username" placeholder="Usuario" required />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Correo" />
+              <input type="email" id="register-email" placeholder="Correo" required />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" />
+              <input type="password" id="register-password" placeholder="Contraseña" required />
             </div>
-            <input type="submit" class="btn" value="registrat" />
+            <button type="submit" class="btn">Registrarse</button>
             <p class="social-text">Registrate con</p>
             <div class="social-media">
               <a href="#" class="social-icon">
